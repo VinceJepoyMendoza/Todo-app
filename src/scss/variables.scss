@@ -1,0 +1,43 @@
+// Colors - light to dark
+$color-light-1: hsl(210, 17%, 98%);
+$color-light-2: hsl(210, 16%, 93%);
+$color-light-3: hsl(210, 14%, 89%);
+$color-light-4: hsl(210, 14%, 83%);
+$color-grey: hsl(210, 11%, 71%);
+$color-dark-1: hsl(208, 7%, 46%);
+$color-dark-2: hsl(210, 9%, 31%);
+$color-dark-3: hsl(210, 10%, 23%);
+$color-dark-4: hsl(210, 11%, 15%);
+$primary: $color-dark-3;
+$secondary: $color-light-4;
+$color-grey-rgb: rgba(#000, 0.25);
+
+// Breakpoints
+$xxl: 1400px;
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+
+// font size
+$fntS-4: 2.5rem;
+$fntS-3: 1.2rem;
+$fntS-2: 1rem;
+$fntS-1: 0.725rem;
+
+$radius-sm: 5px;
+$radius-lg: 10px;
+
+@mixin transitionProperty {
+  transition: all 0.3s ease-in-out;
+}
+
+@mixin shadow {
+  box-shadow: 5px 5px 10px 0 $color-grey-rgb;
+}
+
+@mixin primary-clear-btn-hover {
+  color: $primary;
+  background: transparent;
+  border: 1px solid $primary;
+}
