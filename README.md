@@ -6,6 +6,6 @@
 
 [Vince Jepoy Mendoza](https://www.linkedin.com/in/vince-jepoy-mendoza-5b93a6223/)
 
-## Technologies use to make Jaramart
+## Technologies use to make Todo App
 
 HTML, CSS, Javascript, SASS, React js, Node js, Express, Mongo db
