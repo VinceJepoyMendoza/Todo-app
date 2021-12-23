@@ -27,7 +27,7 @@ const Form = ({ fetchAllTasks, isLoading, url, alert, showAlert }) => {
         showAlert(true, "Task's name must not be empty", 'danger')
       }
     } catch (error) {
-      console.log(error)
+      showAlert(true, "Task's name max characters is 40", 'danger')
     }
   }
 
